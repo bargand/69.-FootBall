@@ -10,10 +10,11 @@ const App = () => {
   return (
     <Router>
       <nav>
-        <Link to="/">Home</Link> | <Link to="/add">Add Data</Link> |{" "}
-        <Link to="/update">Update Data</Link> |
-        <Link to="/delete">Delete Data</Link> |{" "}
-        <Link to="/display">Display Records</Link> |
+        <Link to="/">Home</Link> 
+        <Link to="/add">Add Data</Link>{" "}
+        <Link to="/update">Update Data</Link>
+        <Link to="/delete">Delete Data</Link>{" "}
+        <Link to="/display">Display Records</Link>
         <Link to="/summary">Summary</Link>
       </nav>
       <Routes>
