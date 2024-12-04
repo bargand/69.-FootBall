@@ -31,7 +31,7 @@ const AddData = () => {
 
   return (
     <div className="add-data-container">
-      <h2>Add Football Data</h2>
+      <h2 className='AddFootbalData'>Add Football Data</h2>
       <form onSubmit={handleSubmit}>
         {Object.keys(formData).map((field) => (
           <div key={field}>
